@@ -1,0 +1,11 @@
+fastapi==0.109.2
+uvicorn[standard]==0.27.1
+pydantic==2.6.1
+pandas==2.1.4
+numpy==1.26.3
+scikit-learn==1.2.2
+scipy==1.11.4
+fastapi-cache2==0.2.1
+redis==5.0.1
+python-multipart==0.0.9
+lightgbm==4.3.0

@@ -1,0 +1,25 @@
+.git
+.gitignore
+notebooks
+references
+reports
+Archive*
+Archive 2.zip
+data/raw
+data/interim
+src/data
+src/Music2Movie_Model_v1.ipynb
+src/model_track2genre_mult_models.ipynb
+*.ipynb
+tests
+.k8s
+infra
+test.js
+test2.js
+test3.js
+test.json
+app.js
+index.html
+predict.py
+__pycache__
+*.pyc
