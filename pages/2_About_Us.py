@@ -61,6 +61,6 @@ member_links = ['https://www.linkedin.com/in/neta-tartakovsky/',
 
 for i in range(0,5):    
     with cols[i]:
-        st.image('images/'+member_photos[i], use_column_width="always")
+        st.image('images/'+member_photos[i], use_container_width=True)
         st.write(f' <p style="font-size: 1.1rem;font-weight: 600;"> {member_names[i]} </p>',unsafe_allow_html=True)
         st.link_button("LinkedIn →", member_links[i])

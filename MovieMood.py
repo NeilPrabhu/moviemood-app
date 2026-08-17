@@ -280,7 +280,7 @@ if uploaded_file is not None:
 
 
             st.write(f' <p style="font-size: 0.9rem;height: 50px;display: flex;align-items: end;font-weight: 600;"> {title} </p>',unsafe_allow_html=True)
-            cols[i].image(poster, use_column_width="always")
+            cols[i].image(poster, use_container_width=True)
             
             movie_string = "movie_" + str(i+1)
 
